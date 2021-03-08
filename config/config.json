@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "appointmentscheduling-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/appointmentscheduling/AppointmentschedulingWebPart.js",
+          "manifest": "./src/webparts/appointmentscheduling/AppointmentschedulingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AppointmentschedulingWebPartStrings": "lib/webparts/appointmentscheduling/loc/{locale}.js"
+  }
+}
